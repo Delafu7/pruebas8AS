@@ -9,6 +9,7 @@ on:
 permissions:
   contents: read # Añade permisos de lectura de contenido para el checkout
   security-events: write # Mantiene permisos de escritura para la acción de linting
+  actions: read # A veces es necesario para que las integraciones lean datos del workflow
 
 
 jobs:
